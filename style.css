@@ -1,0 +1,105 @@
+* {
+    --img-width: 500px;
+
+}
+
+body {
+    background: url('1.jpg');
+    background-size: cover;
+    margin: 0;
+
+}
+
+.card3 {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 20px;
+    animation: swing 2s ease-in-out alternate infinite;
+}
+
+.card1 {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 20px;
+    animation: swing 2s ease-in-out alternate infinite;
+}
+
+.card2 {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 20px;
+    animation: swing 2s ease-in-out alternate infinite;
+}
+
+.card4 {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 20px;
+    animation: swing 2s ease-in-out alternate infinite;
+}
+
+
+.pic {
+    width: var(--img-width);
+    padding: 10px;
+    
+}
+
+#pin {
+
+    width: 5%;
+    position: relative;
+    animation: none;
+}
+
+._pin {
+    height: 0px;
+    padding-bottom: 5px;
+    width: var(--img-width);
+    filter: hue-rotate(0deg);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+figcaption {
+    font: italic smaller sans-serif;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(30deg);
+    }
+  }
+  
